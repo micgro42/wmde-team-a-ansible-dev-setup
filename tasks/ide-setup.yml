@@ -1,0 +1,14 @@
+- name: Install VSCode
+  snap:
+    name: code
+    state: present
+    classic: yes
+  tag: vscode
+
+- name: Install Intellij-Idea Ultimate
+  snap:
+    name: intellij-idea-ultimate
+    state: present
+    classic: yes
+  tag: intellij
+

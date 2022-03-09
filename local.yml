@@ -1,0 +1,6 @@
+# inspired by https://github.com/ThePrimeagen/ansible/blob/master/local.yml
+- hosts: localhost
+  tasks:
+    # - include: tasks/git-setup.yml
+    - import_tasks: tasks/zsh-setup.yml
+      # - import_tasks: tasks/ide-setup.yml
